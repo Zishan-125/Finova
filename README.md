@@ -74,6 +74,8 @@ flowchart TD
 
 ```
 
+## 🚀 How Finova Transforms Your Financial Management
+
 ```mermaid
 flowchart TD
     A[User Inputs Transactions & Budgets] --> B[Finova Platform Processing]

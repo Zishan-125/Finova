@@ -41,6 +41,39 @@ Managing personal finances effectively requires more than just static spreadshee
 
 ---
 
+## 🔄 Complete System Workflow
+
+The complete Finova workflow, from user authentication to AI-powered financial insights and database persistence:
+
+```mermaid
+flowchart TD
+
+    A["👤 User / Client"] --> B["🛡️ Arcjet Security & Rate Limiting"]
+
+    B --> C["🔐 Clerk Authentication"]
+
+    C --> D["⚡ Next.js 15 App Router"]
+
+    D --> E["📥 Transaction & Budget API Routes"]
+
+    E --> F["⚡ Inngest Background Workflows"]
+
+    F --> G["🤖 Google Gemini AI Engine"]
+
+    G --> H["📊 Financial & Spending Analysis"]
+
+    H --> I["🗄️ Prisma ORM"]
+
+    I --> J["🌐 Supabase PostgreSQL Database"]
+
+    J --> K["📧 Resend Email Alerts"]
+
+    K --> L["🚀 Vercel Production Deployment"]
+
+    L --> M["📈 Finova User Dashboard"]
+
+```
+
 ## 🚀 Quick Start & Local Setup
 
 ### Prerequisites

@@ -74,24 +74,25 @@ flowchart TD
 
 ```
 
+```mermaid
 flowchart TD
-    A["👤 User Inputs Transactions & Budgets"] --> B["⚡ Finova Platform Processing"]
+    A[User Inputs Transactions & Budgets] --> B[Finova Platform Processing]
 
-    B --> C["💡 Benefit 1: Real-Time Visibility"]
-    B --> D["🤖 Benefit 2: AI-Powered Insights"]
-    B --> E["📧 Benefit 3: Automated Notifications"]
-    B --> F["🛡️ Benefit 4: Secure Data & Rate Limiting"]
+    B --> C[Real-Time Visibility]
+    B --> D[AI-Powered Insights]
+    B --> E[Automated Notifications]
+    B --> F[Secure Data & Rate Limiting]
 
-    C --> G["🎯 Outcome: Instant clarity on cash flow and expense categories"]
-    D --> H["🎯 Outcome: Tailored financial advice and smarter spending choices"]
-    E --> F1["🎯 Outcome: Timely reports and alerts delivered straight to your inbox"]
-    F --> I["🎯 Outcome: Total peace of mind with enterprise-grade security"]
+    C --> G[Instant clarity on cash flow and categories]
+    D --> H[Tailored financial advice and smart choices]
+    E --> F1[Timely reports and alerts delivered to inbox]
+    F --> I[Total peace of mind with enterprise security]
 
-    G --> J["🏆 Ultimate Result: Complete Financial Freedom & Control"]
+    G --> J[Ultimate Result: Complete Financial Freedom & Control]
     H --> J
     F1 --> J
     I --> J
-
+```
 ## 🚀 Quick Start & Local Setup
 
 ### Prerequisites
